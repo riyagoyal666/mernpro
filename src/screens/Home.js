@@ -115,7 +115,7 @@ export default function Home() {
 
   const loadFoodItems = async () => {
     try {
-      const response = await fetch(https://foodie-6m6x.onrender.com/api/foodData" {
+      const response = await fetch(http://localhost:5000/api/foodData" {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
